@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/infograp/public_html/gridgallery
+    - /bin/cp -R * $DEPLOYPATH
